@@ -108,5 +108,21 @@ public class Main {
         else if (canRideAlone) {
             System.out.println("Ребенок может кататься без сопровождения взрослого");
         }
+
+        System.out.println("Задача 9");
+        int one = 57;
+        int two = 82;
+        int three = 15;
+        boolean isOneMax = one > two && one > three;
+        boolean isTwoMax = two > one && two > three;
+        boolean isThreeMax = three > two && three > one;
+        if (isOneMax){
+            System.out.println("Самое большое число: " + one);
+        }
+        else if (isTwoMax){
+            System.out.println("Самое большое число: " + two);
+        } else if (isThreeMax) {
+            System.out.println("Самое большое число: " + three);
+        }
     }
     }
