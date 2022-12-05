@@ -74,5 +74,24 @@ public class Main {
         else if (amountPeople >= capacityTotal) {
             System.out.println("В вагоне не осталось больше мест");
         }
+
+        System.out.println("Задача 7");
+        age = 14;
+        boolean goToGarden = age <= 2 && age < 7;
+        boolean goToSchool = age >= 7 && age < 18;
+        boolean goToUniversity = age >= 18 && age < 24;
+        boolean goToWork = age >= 24;
+        if (goToGarden) {
+            System.out.println("Ребенок ходит в детсад");
+        }
+        else if (goToSchool) {
+            System.out.println("Ребенок ходит в школу");
+        }
+        else if (goToUniversity) {
+            System.out.println("Человек уже закончил школу и может отправляться в университет");
+        }
+        else if (goToWork) {
+            System.out.println("Человек окончил университет и ему пора ходить на работу");
+        }
     }
     }
