@@ -47,5 +47,20 @@ public class Main {
         else {
             System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать...");
         }
+
+        System.out.println("Задача 5");
+        age1 = 16;
+        if (age1 < 7) {
+            System.out.println("Ребенок ходит в детсад скорее всего");
+        }
+        else if ((age1 >= 7) && (age1 < 18)) {
+            System.out.println("Ребенок ходит в школу");
+        }
+        else if ((age1 >= 18) && (age1 < 24)) {
+            System.out.println("Человек уже закончил школу и может отправляться в университет");
+        }
+        else if (age1 >= 24) {
+            System.out.println("Человек окончил университет и ему пора искать первую работу");
+        }
     }
     }
