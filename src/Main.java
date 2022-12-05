@@ -93,5 +93,20 @@ public class Main {
         else if (goToWork) {
             System.out.println("Человек окончил университет и ему пора ходить на работу");
         }
+
+        System.out.println("Задача 8");
+        age = 14;
+        boolean canNotRide = age < 5;
+        boolean canRideWithAdult = age >= 5 && age < 14;
+        boolean canRideAlone = age >= 14;
+        if (canNotRide) {
+            System.out.println("Ребенок не может кататься на аттракционе");
+        }
+        else if (canRideWithAdult) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        }
+        else if (canRideAlone) {
+            System.out.println("Ребенок может кататься без сопровождения взрослого");
+        }
     }
     }
