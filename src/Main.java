@@ -43,8 +43,7 @@ public class Main {
         age = 18;
         if (age >= 18) {
             System.out.println("Поздравляем тебя с совершеннолетием!");
-        }
-        else {
+        } else {
             System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать...");
         }
 
@@ -52,14 +51,11 @@ public class Main {
         age1 = 16;
         if (age1 < 7) {
             System.out.println("Ребенок ходит в детсад скорее всего");
-        }
-        else if ((age1 >= 7) && (age1 < 18)) {
+        } else if ((age1 >= 7) && (age1 < 18)) {
             System.out.println("Ребенок ходит в школу");
-        }
-        else if ((age1 >= 18) && (age1 < 24)) {
+        } else if ((age1 >= 18) && (age1 < 24)) {
             System.out.println("Человек уже закончил школу и может отправляться в университет");
-        }
-        else if (age1 >= 24) {
+        } else if (age1 >= 24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
 
@@ -67,11 +63,9 @@ public class Main {
         amountPeople = 32;
         if (amountPeople < capacitySit) {
             System.out.println("В вагоне еще осталось " + (capacitySit - amountPeople) + " сидячих мест и " + capacityStand + " стоячих");
-        }
-        else if ((amountPeople >= capacitySit) && (amountPeople < capacityTotal)) {
+        } else if ((amountPeople >= capacitySit) && (amountPeople < capacityTotal)) {
             System.out.println("В вагоне не осталось сидячих мест, но есть еще " + (capacityTotal - amountPeople) + " стоячих");
-        }
-        else if (amountPeople >= capacityTotal) {
+        } else if (amountPeople >= capacityTotal) {
             System.out.println("В вагоне не осталось больше мест");
         }
 
@@ -83,14 +77,11 @@ public class Main {
         boolean goToWork = age >= 24;
         if (goToGarden) {
             System.out.println("Ребенок ходит в детсад");
-        }
-        else if (goToSchool) {
+        } else if (goToSchool) {
             System.out.println("Ребенок ходит в школу");
-        }
-        else if (goToUniversity) {
+        } else if (goToUniversity) {
             System.out.println("Человек уже закончил школу и может отправляться в университет");
-        }
-        else if (goToWork) {
+        } else if (goToWork) {
             System.out.println("Человек окончил университет и ему пора ходить на работу");
         }
 
@@ -101,11 +92,9 @@ public class Main {
         boolean canRideAlone = age >= 14;
         if (canNotRide) {
             System.out.println("Ребенок не может кататься на аттракционе");
-        }
-        else if (canRideWithAdult) {
+        } else if (canRideWithAdult) {
             System.out.println("Ребенок может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
-        }
-        else if (canRideAlone) {
+        } else if (canRideAlone) {
             System.out.println("Ребенок может кататься без сопровождения взрослого");
         }
 
@@ -116,13 +105,12 @@ public class Main {
         boolean isOneMax = one > two && one > three;
         boolean isTwoMax = two > one && two > three;
         boolean isThreeMax = three > two && three > one;
-        if (isOneMax){
+        if (isOneMax) {
             System.out.println("Самое большое число: " + one);
-        }
-        else if (isTwoMax){
+        } else if (isTwoMax) {
             System.out.println("Самое большое число: " + two);
         } else if (isThreeMax) {
             System.out.println("Самое большое число: " + three);
         }
     }
-    }
+}
