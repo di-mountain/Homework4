@@ -38,5 +38,14 @@ public class Main {
         if (amountPeople >= capacityTotal) {
             System.out.println("В вагоне не осталось больше мест");
         }
+
+        System.out.println("Задача 4");
+        age = 18;
+        if (age >= 18) {
+            System.out.println("Поздравляем тебя с совершеннолетием!");
+        }
+        else {
+            System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать...");
+        }
     }
     }
