@@ -23,5 +23,20 @@ public class Main {
         if (age1 >= 24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
+
+        System.out.println("Задача 3");
+        int capacityTotal = 102;
+        int capacitySit = 60;
+        int capacityStand = 42;
+        int amountPeople = 78;
+        if (amountPeople < capacitySit) {
+            System.out.println("В вагоне еще осталось " + (capacitySit - amountPeople) + " сидячих мест и " + capacityStand + " стоячих");
+        }
+        if ((amountPeople >= capacitySit) && (amountPeople < capacityTotal)) {
+            System.out.println("В вагоне не осталось сидячих мест, но есть еще " + (capacityTotal - amountPeople) + " стоячих");
+        }
+        if (amountPeople >= capacityTotal) {
+            System.out.println("В вагоне не осталось больше мест");
+        }
     }
     }
